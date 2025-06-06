@@ -22,9 +22,4 @@ export async function GET() {
   return NextResponse.json( datos );
 }
 
-export async function POST() {
 
-    const nuevoUsuario = { id: uuidv4(), respuestas:{item:["no","ne","na"]} };
-    datos.push(nuevoUsuario);
-    return NextResponse.json(nuevoUsuario);
-}
