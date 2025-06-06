@@ -1,8 +1,10 @@
+import { timeStamp } from "console";
 import { NextRequest, NextResponse } from "next/server";
 import {v4 as uuidv4} from 'uuid';
 let datos = [
   {
 	  idRespuesta : uuidv4(),
+    timestamp: "2024-06-09 21:23:01",
     respuestas : [
     {item: "conoce-nombre-humedal", respuesta:"si"},
     {item: "nombre-humedal", respuesta:"miraflores"},
